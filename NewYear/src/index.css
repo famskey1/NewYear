@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+.congra{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 180;
+    gap: 75px;
+    text-decoration: none;
+    color: #fff;
+    -webkit-text-stroke: .2px rgb(109, 109, 109);
+}
+
+header{
+    background-image: url('./assets/ist.jpg');
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    height: 49px;
+    width: 309px;
+    margin: auto;
+}
+
+main{
+    background-image: url('./assets/background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .container{
+    z-index: 1;
+    position: relative;
+
+}
+
+.backg{
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    position: absolute;
+    z-index: 1;
+    float: left;
+    background-image: url('./assets/background.png');
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    transform: translate(-140px, 10px);
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.first{
+    height: 1600px;
+    background-color: rgb(222, 239, 250);
+    justify-content: center;
+    justify-items: center;
+}
+
+.typed_out{
+    margin-top: 25px;
+    border-top: 3px solid rgb(65, 65, 65);
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.inlineDiv{
+    color: rgb(10, 170, 10);
+    display: inline-block;
+    font-family: "VCR Mono", "Courier New";
+    font-size:25px;
+    background-color: black;    
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 1200px;
+}
+
+.inlineDiv p{
+    text-align: left;
+    padding: 10px 0px 180px 5px;
+}
+
+.con{
+    text-align: left;
+    padding: 10px 0px 10px 5px;
+    z-index: -1;
+    background-color: rgb(90, 89, 89);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    margin-top: 25px;
+    border-bottom: 3px solid rgb(65, 65, 65);
+}
+
+.con p{
+    background-color: rgb(105, 105, 105);
+    padding: 7px;
+    padding-left: 10px;
+    border-radius: 10px;
+    width: 190px;
+}
+
+.info{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.btn{
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+    align-items: center;
+}
+
+.btn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+.btn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn:active {
+	background-color: #808080;
+}
+.gif{
+    height: 600px;
+    width: 1200px;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 7px 10px rgb(56, 44, 49);
+}
+.girlanda{
+    height: 150px;
+    position: absolute;
+    width: 100%;
+    margin-top: -65px;
+    z-index: 2;
+}
+.mainText{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ascii-art {
+    display: inline-block;
+    padding: 2em;
+    margin: 2em;
+    margin-top: 80px;
+    font-size: 12px;
+}
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-left: 340px;
+    background-color: rgb(222, 239, 250)
+}
+@font-face {
+    font-family: "VCR Mono";
+    src: url("./fonts/vcrosdmonorusbydaymarius.ttf");
+    font-weight: normal;
+    font-size: normal;
+}
