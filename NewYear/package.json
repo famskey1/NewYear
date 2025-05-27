@@ -2,8 +2,11 @@
   "name": "newyear",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://famskey1.github.io/NewYear",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -11,6 +14,7 @@
   },
   "dependencies": {
     "-": "^0.0.1",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scroll": "^1.9.0"
